@@ -1,0 +1,16 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         HTML-Seamstress
+version:      5.0b
+version_from: lib/HTML/Seamstress.pm
+installdirs:  site
+requires:
+    Class::Prototyped:             1.1
+    File::Slurp:                   9999.06
+    HTML::Element::Library:        0.01
+    HTML::PrettyPrinter:           0.03
+    HTML::Tree:                    3.18
+    Pod::Usage:                    1.14
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.30
