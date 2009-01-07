@@ -58,10 +58,9 @@ sub new_file { # or from a FH
     $new->$k($args{$k});
   }
 
-  bless_tree($new, $class);
-  #  warn "here is new: $new ", $new->as_HTML;
   -e $file or die "$file does not exist";
   $new->parse_file($file);
+  bless_tree($new, $class);
 
   if ($args{guts}) {
     $new->guts;
