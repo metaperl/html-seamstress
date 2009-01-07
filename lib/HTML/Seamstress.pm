@@ -52,14 +52,22 @@ sub new_file { # or from a FH
 
 
   my $new = HTML::TreeBuilder->new;
+
   for my $k (keys %args) {
+    next if $k =~ /guts/ ; # scales for more actions later
     $new->$k($args{$k});
   }
+
   bless_tree($new, $class);
   #  warn "here is new: $new ", $new->as_HTML;
   -e $file or die "$file does not exist";
   $new->parse_file($file);
-  $new;
+
+  if ($args{guts}) {
+    $new->guts;
+  } else {
+    $new;
+  }
 
 }
 

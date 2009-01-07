@@ -9,3 +9,16 @@ my $t = HTML::Seamstress->new_file(
 	);
 
 warn $t->as_HTML('  ');
+
+my $t = HTML::Seamstress->new_file(
+	't/html/new_file/guts.html',
+	guts => 1
+	);
+
+warn $t->as_HTML('  ');
+
+my $t = HTML::Seamstress->new_file(
+	't/html/new_file/guts.html',
+	);
+
+warn $t->as_HTML('  ');
