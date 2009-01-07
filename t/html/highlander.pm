@@ -1,6 +1,6 @@
 package html::highlander;
 
-# cmdline: ./spkg.pl --base_pkg_root=/home/W049945/prg/seamstress/t/ --base_pkg=html::Seamstress::Base t/html/highlander.html
+# cmdline: ./spkg.pl --base_pkg_root=/home/tbrannon/prg/html-seamstress/t/ --base_pkg=html::Seamstress::Base t/html/highlander.html
 
 use strict;
 use warnings;
@@ -8,7 +8,7 @@ use warnings;
 use base qw(Class::Prototyped HTML::Seamstress);
 
 
-use lib '/home/W049945/prg/seamstress/t/';
+use lib '/home/tbrannon/prg/html-seamstress/t/';
 use base qw(html::Seamstress::Base); 
 use vars qw($html);
 

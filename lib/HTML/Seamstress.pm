@@ -46,6 +46,22 @@ sub new_from_file { # or from a FH
 
 }
 
+sub new_file { # or from a FH
+
+  my ($class, $file, %args) = @_;
+
+
+  my $new = HTML::TreeBuilder->new;
+  for my $k (keys %args) {
+    $new->$k($args{$k});
+  }
+  bless_tree($new, $class);
+  #  warn "here is new: $new ", $new->as_HTML;
+  -e $file or die "$file does not exist";
+  $new->parse_file($file);
+  $new;
+
+}
 
 sub html {
   my ($class, $file, $extension) = @_;
