@@ -40,6 +40,7 @@ HTML::TreeBuilder, HTML::Element, and HTML::Element::LIbrary
 
 =head2 If-then-else with the highlander API call
 
+(But also see C<< $tree->passover() >> in L<HTML::Element::Library>).
 
  <span id="age_dialog">
     <span id="under10">
@@ -728,6 +729,7 @@ L<HTML::Element::Library>.
 
 =head2 If-then-else == node(s) deletion
 
+(But also see C<< $tree->passover() >> in L<HTML::Element::Library>).
 
  <span id="age_dialog">
     <span id="under10">
