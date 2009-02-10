@@ -947,12 +947,17 @@ module based around HTML and L<HTML::Tree> for this approach.
 
 =head1 SEE ALSO
 
-=head2 Similar Frameworks 
+=head2 Related Software
 
 I created a node at Perlmonks which catalogues push-style templating systems
 both in and outside of Perl:
 
 L<http://perlmonks.org/?node_id=674225|http://perlmonks.org/?node_id=674225>
+
+Here are two common ones:
+L<http://xmlc.enhydra.org>
+L<http://www.plope.com/software/meld3>
+
 
 
 
@@ -991,16 +996,21 @@ module.
 =back
 
 
+=head2 Articles, Publications, Discussion
 
-=head2 HTML Templating as Tree Rewriting: Part I: "If Statements"
+=head3 Form Validation in CGI::Application with Seamstress
+
+L<http://perlmonks.org/?node_id=742427>
+
+=head3 HTML Templating as Tree Rewriting: Part I: "If Statements"
 
 L<http://perlmonks.org/index.pl?node_id=302606>
 
-=head2 HTATR II: HTML table generation via DWIM tree rewriting
+=head3 HTATR II: HTML table generation via DWIM tree rewriting
 
 L<http://perlmonks.org/index.pl?node_id=303188>
 
-=head2 Survey of Surveys on HTML Templating systems
+=head3 Survey of Surveys on HTML Templating systems
 
 L<http://perlmonks.org/?node_id=433729>
 
@@ -1008,7 +1018,7 @@ A fierce head-to-head between PeTaL and Seamstress goes on for several
 days in this thread!
 
 
-=head2 The disadvantages of mini-languages
+=head3 The disadvantages of mini-languages
 
 The disadvantages of mini-languages is discussed here:
 L<http://perlmonks.org/?node_id=428053>
@@ -1039,7 +1049,7 @@ suspect) HTML manipulation, and no ability to statically validate the
 Perl or HTML" 
 
 
-=head2 Problems with JSP (JSP is similar to HTML::Mason)
+=head3 Problems with JSP (JSP is similar to HTML::Mason)
 
 L<http://www.servlets.com/soapbox/problems-jsp-reaction.html>
 
@@ -1047,16 +1057,9 @@ L<http://www-106.ibm.com/developerworks/library/w-friend.html?dwzone=web>
 
 L<http://www.theserverside.com/resources/article.jsp?l=XMLCvsJSP>
 
-=head2 Los Angeles Perl Mongers Talk on HTML::Seamstress
+=head3 Los Angeles Perl Mongers Talk on HTML::Seamstress
 
-L<http://www.metaperl.com>
-
-=head2 Similar frameworks in other languages
-
-
-L<http://xmlc.enhydra.org>
-
-L<http://www.plope.com/software/meld3>
+L<http://www.metaperl.org>
 
 
 

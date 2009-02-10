@@ -38,9 +38,11 @@ sub new_from_file { # or from a FH
 
   my ($class, $file) = @_;
 
+  $class = ref $class ? ref $class : $class ;
 
   my $new = HTML::TreeBuilder->new_from_file($file);
   bless_tree($new, $class);
+  #warn "CLASS: $class TREE:", $new;
 #  warn "here is new: $new ", $new->as_HTML;
   $new;
 
@@ -50,6 +52,7 @@ sub new_file { # or from a FH
 
   my ($class, $file, %args) = @_;
 
+  -e $file or die 'File $file does not exist';
 
   my $new = HTML::TreeBuilder->new;
 
