@@ -1,5 +1,6 @@
 use strict;
 use warnings;
+use Test::More qw(no_plan);
 
 use HTML::Seamstress;
 
@@ -22,3 +23,6 @@ my $t = HTML::Seamstress->new_file(
 	);
 
 warn $t->as_HTML('  ');
+
+ok 1;
+

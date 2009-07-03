@@ -11,10 +11,11 @@ use File::Spec;
 
 
 
-use base qw/HTML::Element::Library HTML::TreeBuilder HTML::Element/;
+use HTML::Element::Library;
+use base qw/HTML::TreeBuilder HTML::Element/;
 
 
-our $VERSION = '5.0b' ;
+our $VERSION = '5.0e' ;
 
 
 sub bless_tree {

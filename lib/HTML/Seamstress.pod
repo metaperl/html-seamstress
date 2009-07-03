@@ -889,14 +889,14 @@ HTML::Seamstress provides "fourth generation" dynamic HTML generation
 In the beginning we had...
 
 
-=head2 First generation dynamic HTML production
+=head2 First generation dynamic HTML production - server side includes
 
 First generation dynamic HTML production used server-side
 includes:
 
  <p>Today's date is   <!--#echo var="DATE_LOCAL" --> </p>
 
-=head2 Second generation dynamic HTML production
+=head2 Second generation dynamic HTML production - HTML in Perl
 
 The next phase of HTML generation saw
 embedded HTML snippets in Perl code. For example:
@@ -910,7 +910,7 @@ embedded HTML snippets in Perl code. For example:
    EOHEADER
  }
 
-=head2 Third generation dynamic HTML production
+=head2 Third generation dynamic HTML production - Perl/minilanguage in HTML
 
 The 3rd generation solutions embed
 programming language constructs with HTML. The language constructs
@@ -935,7 +935,7 @@ HTML in some form or fashion:
 
 =back
 
-=head2 Enter fourth generation dynamic HTML production
+=head2 Enter fourth generation dynamic HTML production - DOM style
 
 The fourth generation of HTML production is distinguished by no need
 for tampering with the HTML. There are a wealth of XML-based modules
@@ -943,9 +943,25 @@ which provide this approach (L<XML::Twig>, L<XML::LibXML>,
 L<XML::TreeBuilder>, L<XML::DOM>). HTML::Seamstress is the one CPAN
 module based around HTML and L<HTML::Tree> for this approach.
 
+The fourth generation is also the way that a language like Javascript rewrites HTML.
+By using Seamstress, you can always think about manipulating your HTML in the same way!
+
 
 
 =head1 SEE ALSO
+
+=head2 Object-oriented goodies
+
+Seamstress is just glue for object-oriented tree processing in Perl (I can see my SEO rank climbing right now from that sentence!).
+Anyway, here is your LOOM - (List of object-oriented modules):
+
+=over 4
+
+=item * L<HTML::ELement::Replacer|HTML::Element::Replacer>
+
+=item * L<HTML::ELement::Library|HTML::Element::Library>
+
+=back
 
 =head2 Related Software
 
@@ -998,9 +1014,19 @@ module.
 
 =head2 Articles, Publications, Discussion
 
+
+=head3 Push style templating systems
+
+http://perlmonks.org/?node_id=674225
+
 =head3 Form Validation in CGI::Application with Seamstress
 
 L<http://perlmonks.org/?node_id=742427>
+
+=head3 Easy table rendering in modern HTML::Seamstress
+
+L<http://perlmonks.org/?node_id=768430>
+
 
 =head3 HTML Templating as Tree Rewriting: Part I: "If Statements"
 
@@ -1068,12 +1094,19 @@ L<http://www.metaperl.org>
 
 =head1 SUPPORT and DEVELOPMENT
 
-L<http://seamstress.sourceforge.net/> is the jumping-off page
-for all things Seamstress on the web.
+
+
+=head2 IRC
+
+L<irc://irc.perl.org/#html-seamstress>
 
 =head2 Mailing List
 
 L<http://lists.sourceforge.net/lists/listinfo/seamstress-discuss>
+
+=head2 Source repo
+
+L<http://github.com/metaperl/html-seamstress/tree/master>
 
 =head1 AUTHOR
 
