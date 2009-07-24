@@ -9,11 +9,16 @@ WriteMakefile(
     'PREREQ_PM'		=> 
 	      {
 	       File::Slurp => 9999.06,
-	       HTML::Element::Library => 0.01,
+
 	       HTML::PrettyPrinter => 0.03,
 	       HTML::Tree => 3.18,
 	       Pod::Usage => 1.14,
 	       Class::Prototyped => 1.10,
+
+	       HTML::Element::Library => 0.01,
+	       HTML::Elemental => 0.01,
+	       HTML::Element::Replacer => 0.01,
+	       HTML::FillInForm => 0.01,
 	      },
 
 );

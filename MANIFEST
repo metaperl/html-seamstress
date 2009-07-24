@@ -29,6 +29,7 @@ lib/HTML/pod2htmi.tmp
 lib/HTML/Seamstress.html
 lib/HTML/Seamstress.pm
 lib/HTML/Seamstress.pod
+lib/HTML/Seamstress/Doc/FAQ.pod
 lib/HTML/Seamstress/EDIT_Quickstart.tt_DO_NOT_EDIT_Quickstart.pod
 lib/HTML/Seamstress/EDIT_Quickstart.tt_ONLY
 lib/HTML/Seamstress/pod2htmd.tmp

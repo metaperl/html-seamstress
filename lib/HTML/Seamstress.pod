@@ -108,7 +108,7 @@ common to a subclass of L<HTML::Tree>.
 
 
 I think a Perlmonks node:
-L<http://perlmonks.org/?node_id=669956|http://perlmonks.org/?node_id=669956>
+L<http://perlmonks.org/?node_id=669956>
 sums up the job of Seamstress quite well:
 
     Monks,
@@ -968,7 +968,7 @@ Anyway, here is your LOOM - (List of object-oriented modules):
 I created a node at Perlmonks which catalogues push-style templating systems
 both in and outside of Perl:
 
-L<http://perlmonks.org/?node_id=674225|http://perlmonks.org/?node_id=674225>
+L<http://perlmonks.org/?node_id=674225>
 
 Here are two common ones:
 L<http://xmlc.enhydra.org>
@@ -1162,6 +1162,8 @@ Just an idea...
 =item * Ian Tegebo
 
 For noticing some doc bugs in the Quickstart guide.
+
+=item * 
 
 =back
 
