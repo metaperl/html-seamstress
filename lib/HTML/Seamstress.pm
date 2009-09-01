@@ -12,12 +12,11 @@ use File::Spec;
 
 
 use HTML::Element::Library;
-use HTML::Elemental;
 use HTML::Element::Replacer;
 use base qw/HTML::TreeBuilder HTML::Element/;
 
 
-our $VERSION = '5.0g' ;
+our $VERSION = '5.0h' ;
 
 
 sub bless_tree {

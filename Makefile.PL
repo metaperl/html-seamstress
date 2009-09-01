@@ -16,7 +16,6 @@ WriteMakefile(
 	       Class::Prototyped => 1.10,
 
 	       HTML::Element::Library => 0.01,
-	       HTML::Elemental => 0.01,
 	       HTML::Element::Replacer => 0.01,
 	       HTML::FillInForm => 0.01,
 	      },

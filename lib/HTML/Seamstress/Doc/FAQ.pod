@@ -22,8 +22,6 @@ They are tree processing methods. Seamstress is an open-ended API for OO tree pr
 
 =item * L<HTML::Element>
 
-=item * L<HTML::Elemental>
-
 =item * L<HTML::Element::Library>
 
 =item * L<HTML::Element::Replacer>

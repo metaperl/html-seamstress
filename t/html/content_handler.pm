@@ -1,6 +1,6 @@
 package html::content_handler;
 
-# cmdline: ./spkg.pl --base_pkg_root=/home/tbrannon/prg/html-seamstress/t/ --base_pkg=html::Seamstress::Base t/html/content_handler.html
+# cmdline: ./spkg.pl --base_pkg_root=/home/Administrator/prg/html-seamstress/t/ --base_pkg=html::Seamstress::Base t/html/content_handler.html
 
 use strict;
 use warnings;
@@ -8,7 +8,7 @@ use warnings;
 use base qw(Class::Prototyped HTML::Seamstress);
 
 
-use lib '/home/tbrannon/prg/html-seamstress/t/';
+use lib '/home/Administrator/prg/html-seamstress/t/';
 use base qw(html::Seamstress::Base); 
 use vars qw($html);
 
