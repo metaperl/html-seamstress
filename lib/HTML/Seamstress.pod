@@ -1087,9 +1087,9 @@ L<http://www.theserverside.com/resources/article.jsp?l=XMLCvsJSP>
 
 L<http://www.metaperl.org>
 
+=head3 "Inside-out Templates in Perl"
 
-
-
+L<http://www.webquills.net/web-development/perl/insideout-templates-in-perl.html>
 
 
 =head1 SUPPORT and DEVELOPMENT
